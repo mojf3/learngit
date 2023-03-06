@@ -8,7 +8,7 @@ Git has a mutable index called stage.
 Git tracks changes of files.
 
 
-# configure
+# configure (change your name and email)
 git config --global user.name "mojf3"
 
 git config --global user.email "mojf3@mail2.sysu.edn.cn"
@@ -24,8 +24,11 @@ cat id_rsa.pub
 
 ## copy it in "SSH Keys" of setting of github
 
-## git clone new repositories
+## check it whether sucess or not
+ssh -T git@github.com
 
+## git clone new repositories (for ssh, e.g. )
+git clone git@github.com:mojf3/learngit.git
 
 # git common code 
 git status
