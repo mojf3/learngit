@@ -24,7 +24,7 @@ cat id_rsa.pub
 
 ## copy it in "SSH Keys" of setting of github
 
-## check it whether sucess or not
+## check it whether success or not
 ssh -T git@github.com
 
 ## git clone new repositories (for ssh, e.g. )
